@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    font-family: "Owners-text", sans-serif;
+}
+h1,
+h2,
+h3 {
+    font-family: "Ofelia-text", sans-serif;
+}
+
+h1 {
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+h2 {
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+h3 {
+    color: #000000;
+    font-size: 1.25rem;
+    font-weight: 600;
+}

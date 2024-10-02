@@ -13,13 +13,15 @@ return new class extends Migration
     {
         Schema::create('formations', function (Blueprint $table) {
             $table->id();
-            $table->string('image_src');
-            $table->string('image_alt');
-            $table->string('title');
+            $table->string('titre');
             $table->text('description');
-            $table->string('duration');
-            $table->string('price');
-            // next ?
+            $table->text('objectifs');
+            $table->text('contenu');
+            $table->string('prerequis')->nullable();
+            $table->string('niveau');
+            $table->text('profils_stagiaires');
+            $table->text('suivi_exploitation');
+            $table->boolean('acces_handicap')->default(false);
             $table->timestamps();
         });
     }

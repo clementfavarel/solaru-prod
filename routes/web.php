@@ -10,16 +10,19 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
 Route::get('/formations', [FormationController::class, 'index'])->name('formations');
+Route::get('/formations/{id}', [FormationController::class, 'show'])->name('formations.show');
 
 Route::get('/localisation', [LocalisationController::class, 'index'])->name('localisation');
 
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 Route::post('/contact', [ContactController::class, 'send'])->name('contact.send');
 
-Route::get('/mentions-legales', [LegalController::class, 'mentionsLegales'])->name('mentions.legales');
+Route::prefix('legal')->group(function () {
+    Route::get('/mentions-legales', [LegalController::class, 'mentionsLegales'])->name('mentions.legales');
 Route::get('/conditions-generales', [LegalController::class, 'conditionsGenerales'])->name('conditions.generales');
 Route::get('/politique-confidentialite', [LegalController::class, 'politiqueConfidentialite'])->name('politique.confidentialite');
 Route::get('/reglement-interieur', [LegalController::class, 'reglementInterieur'])->name('reglement.interieur');
+Route::get('/reglement-foad', [LegalController::class, 'reglementFoad'])->name('reglement.foad');
 Route::get('/protocole-sanitaire', [LegalController::class, 'protocoleSanitaire'])->name('protocole.sanitaire');
 Route::get('/demarche-qualite', [LegalController::class, 'demarcheQualite'])->name('demarche.qualite');
-Route::get('/formation-handicap', [LegalController::class, 'formationHandicap'])->name('formation.handicap');
+});

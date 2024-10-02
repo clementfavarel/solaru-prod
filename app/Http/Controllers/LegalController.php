@@ -26,6 +26,11 @@ class LegalController extends Controller
         return view('legal.reglement-interieur');
     }
 
+    public function reglementFoad()
+    {
+        return view('legal.reglement-foad');
+    }
+
     public function protocoleSanitaire()
     {
         return view('legal.protocole-sanitaire');
@@ -34,10 +39,5 @@ class LegalController extends Controller
     public function demarcheQualite()
     {
         return view('legal.demarche-qualite');
-    }
-
-    public function formationHandicap()
-    {
-        return view('legal.formation-handicap');
     }
 }

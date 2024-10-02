@@ -9,7 +9,14 @@ class FormationController extends Controller
 {
     public function index()
     {
-        $formations = Formation::all();
+        $formations = Formation::with('modalites')->get();
         return view('formations.index', compact('formations'));
     }
+
+    public function show($id)
+    {
+        $formation = Formation::with('modalites')->findOrFail($id);
+        return view('formations.show', compact('formation'));
+    }
+
 }

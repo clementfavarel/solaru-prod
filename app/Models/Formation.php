@@ -10,11 +10,12 @@ class Formation extends Model
     use HasFactory;
 
     protected $fillable = [
-        'image_src',
-        'image_alt',
-        'title',
-        'description',
-        'duration',
-        'price',
+        'titre', 'description', 'objectifs', 'contenu', 'prerequis', 'niveau',
+        'profils_stagiaires', 'suivi_exploitation', 'acces_handicap'
     ];
+
+    public function modalites()
+    {
+        return $this->hasMany(Modalite::class);
+    }
 }
