@@ -17,7 +17,7 @@
                     class="p-2 text-lg {{ request()->routeIs('localisation') ? 'text-purple-500' : 'text-black/50 dark:text-white/50 hover:text-purple-500' }}">Localisation</a>
             </li>
             <li>
-                <a href="{{ route('contact') }}"
+                <a href="mailto:contact@solaruform.com"
                     class="p-2 text-lg text-white dark:text-white/50 font-semibold bg-purple-500 px-4 py-3 rounded-lg hover:hover:bg-purple-400 transition ease-in-out">Contact</a>
             </li>
         </ul>
@@ -53,7 +53,7 @@
             </svg>
             <p class="text-xs">Localisation</p>
         </a>
-        <a href="{{ route('contact') }}"
+        <a href="mailto:contact@solaruform.com"
             class="flex flex-col gap-1 items-center {{ request()->routeIs('contact') ? 'text-purple-500' : 'text-gray-400' }}">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-info w-6">

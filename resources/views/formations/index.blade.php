@@ -1,8 +1,8 @@
 <x-app-layout>
     <div class="max-w-7xl py-8 px-4 lg:px-0">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 bg-white rounded-lg shadow-lg">
-            <div class="flex flex-col gap-8 p-6">
-                <h1 class="text-3xl font-bold text-gray-800 text-center">Nos Formations</h1>
+            <div class="flex flex-col gap-8 sm:p-6">
+                <h1 class="text-3xl font-bold text-gray-800 text-center mt-4">Nos Formations</h1>
                 @foreach ($formations as $formation)
                     <div class="p-6 bg-gray-100 rounded-lg shadow mb-6">
                         <h2 class="text-2xl font-semibold text-gray-800 text-center">{{ $formation->titre }}</h2>

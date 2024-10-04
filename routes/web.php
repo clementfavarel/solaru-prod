@@ -14,9 +14,6 @@ Route::get('/formations/{id}', [FormationController::class, 'show'])->name('form
 
 Route::get('/localisation', [LocalisationController::class, 'index'])->name('localisation');
 
-Route::get('/contact', [ContactController::class, 'index'])->name('contact');
-Route::post('/contact', [ContactController::class, 'send'])->name('contact.send');
-
 Route::prefix('legal')->group(function () {
     Route::get('/mentions-legales', [LegalController::class, 'mentionsLegales'])->name('mentions.legales');
 Route::get('/conditions-generales', [LegalController::class, 'conditionsGenerales'])->name('conditions.generales');

@@ -4,6 +4,9 @@
 
 body {
     font-family: "Owners-text", sans-serif;
+    background-color: #f7fafc !important;
+    background-image: radial-gradient(#805ad5 1px, hsla(0, 0%, 100%, 0.275) 0);
+    background-size: 2rem 2rem;
 }
 h1,
 h2,

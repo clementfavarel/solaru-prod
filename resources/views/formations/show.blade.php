@@ -1,7 +1,7 @@
 <x-app-layout>
     <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div class="bg-white shadow-xl rounded-lg overflow-hidden">
-            <div class="px-4 py-5 sm:px-6 bg-purple-600">
+            <div class="px-6 py-8 bg-purple-600">
                 <h1 class="text-3xl font-extrabold text-white text-center">{{ $formation->titre }}</h1>
             </div>
             <div class="px-4 py-5 sm:p-6">
