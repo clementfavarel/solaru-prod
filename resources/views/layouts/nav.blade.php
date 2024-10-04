@@ -6,19 +6,19 @@
         <ul class="flex items-center gap-2">
             <li>
                 <a href="{{ route('home') }}"
-                    class="p-2 text-lg {{ request()->routeIs('home') ? 'text-purple-500' : 'text-black/50 dark:text-white/50 hover:text-purple-500' }}">Accueil</a>
+                    class="p-2 text-lg {{ request()->routeIs('home') ? 'text-purple-500' : 'text-black/50 hover:text-purple-500' }}">Accueil</a>
             </li>
             <li>
                 <a href="{{ route('formations') }}"
-                    class="p-2 text-lg {{ request()->routeIs('formations') ? 'text-purple-500' : 'text-black/50 dark:text-white/50 hover:text-purple-500' }}">Formations</a>
+                    class="p-2 text-lg {{ request()->routeIs('formations') ? 'text-purple-500' : 'text-black/50 hover:text-purple-500' }}">Formations</a>
             </li>
             <li>
                 <a href="{{ route('localisation') }}"
-                    class="p-2 text-lg {{ request()->routeIs('localisation') ? 'text-purple-500' : 'text-black/50 dark:text-white/50 hover:text-purple-500' }}">Localisation</a>
+                    class="p-2 text-lg {{ request()->routeIs('localisation') ? 'text-purple-500' : 'text-black/50 hover:text-purple-500' }}">Localisation</a>
             </li>
             <li>
                 <a href="mailto:contact@solaruform.com"
-                    class="p-2 text-lg text-white dark:text-white/50 font-semibold bg-purple-500 px-4 py-3 rounded-lg hover:hover:bg-purple-400 transition ease-in-out">Contact</a>
+                    class="p-2 text-lg text-white font-semibold bg-purple-500 px-4 py-3 rounded-lg hover:hover:bg-purple-400 transition ease-in-out">Contact</a>
             </li>
         </ul>
     </div>
