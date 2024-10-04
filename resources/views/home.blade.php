@@ -12,7 +12,7 @@
                         nesciunt
                         doloribus numquam officia. Doloremque?</p>
                     <a href="{{ route('formations') }}"
-                        class="w-fit px-4 py-3 rounded-lg bg-purple-500 hover:bg-purple-400 font-semibold text-white mx-auto mt-4">Découvrir</a>
+                        class="w-fit px-4 py-3 rounded-lg bg-[#825A7E] hover:bg-[#9E7594] font-semibold text-white mx-auto mt-4">Découvrir</a>
                 </div>
             </div>
         </div>
@@ -27,7 +27,7 @@
                         nesciunt
                         doloribus numquam officia. Doloremque?</p>
                     <a href="{{ route('formations') }}"
-                        class="w-fit px-4 py-3 rounded-lg bg-purple-500 hover:bg-purple-400 font-semibold text-white mx-auto">Voir
+                        class="w-fit px-4 py-3 rounded-lg bg-[#825A7E] hover:bg-[#9E7594] font-semibold text-white mx-auto">Voir
                         les
                         formations</a>
                 </div>
@@ -43,7 +43,7 @@
                     <p class="text-lg">Des formations dispensées dans un environnement adapté pour le bien être
                         professionnel de tous.</p>
                     <a href="{{ route('localisation') }}"
-                        class="w-fit px-4 py-3 rounded-lg bg-purple-500 hover:bg-purple-400 font-semibold text-white mx-auto">En
+                        class="w-fit px-4 py-3 rounded-lg bg-[#825A7E] hover:bg-[#9E7594] font-semibold text-white mx-auto">En
                         savoir plus</a>
                 </div>
             </div>
@@ -58,7 +58,7 @@
                     <p class="text-lg">Nous serions ravis de vous aider en répondant à toutes vos questions. N'hésitez
                         pas à nous joindre par mail.</p>
                     <a href="mailto:contact@solaruform.com"
-                        class="w-fit px-4 py-3 rounded-lg bg-purple-500 hover:bg-purple-400 font-semibold text-white mx-auto">Nous
+                        class="w-fit px-4 py-3 rounded-lg bg-[#825A7E] hover:bg-[#9E7594] font-semibold text-white mx-auto">Nous
                         contacter</a>
                 </div>
             </div>
