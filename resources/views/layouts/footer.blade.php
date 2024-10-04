@@ -2,8 +2,8 @@
     <div class="max-w-7xl mx-auto px-4">
         <div class="flex flex-wrap justify-between items-start">
             <div class="w-full md:w-1/4 mb-6 md:mb-0">
-                <img src="/img/logo.png" alt="Solaru Prod logo" class="w-60 mb-4">
-                <img src="/img/qualiopi.jpg" alt="Qualiopi logo" class="w-60 mb-4">
+                <img src="/img/logo.webp" alt="Solaru Prod logo" class="w-60 mb-4">
+                <img src="/img/qualiopi.webp" alt="Qualiopi logo" class="w-60 mb-4">
                 <p class="mb-2">Copyright &copy; {{ date('Y') }} - {{ config('app.name', 'Solaru Form') }}</p>
                 <p>Site internet créé par Clément FAVAREL</p>
             </div>

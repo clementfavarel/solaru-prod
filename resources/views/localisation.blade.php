@@ -36,10 +36,10 @@
 
             <div class="flex flex-col lg:flex-row w-full py-10 gap-4">
                 <div class="flex-one">
-                    <img src="img/mercure.png" alt="Hôtel Mercure La Seyne sur Mer" class="rounded-xl">
+                    <img src="img/mercure.webp" alt="Hôtel Mercure La Seyne sur Mer" class="rounded-xl">
                 </div>
                 <div class="flex-one">
-                    <img src="img/salle.png" alt="Salle de formation hôtel Mercure" class="rounded-xl">
+                    <img src="img/salle.webp" alt="Salle de formation hôtel Mercure" class="rounded-xl">
                 </div>
             </div>
 

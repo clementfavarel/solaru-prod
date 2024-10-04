@@ -1,7 +1,7 @@
 <nav class="hidden lg:block fixed top-0 left-0 w-full h-20 bg-white shadow-lg z-10 text-dark">
     <div class="max-w-7xl mx-auto h-full flex items-center justify-between">
         <a href="{{ route('home') }}" class="flex gap-4 items-center">
-            <img src="/img/logo.png" alt="Solaru Form logo" class="w-40">
+            <img src="/img/logo.webp" alt="Solaru Form logo" class="w-40">
         </a>
         <ul class="flex items-center gap-2">
             <li>

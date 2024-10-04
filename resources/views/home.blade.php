@@ -20,7 +20,7 @@
     <div class="max-w-7xl py-8 px-4 sm:px-6 lg:px-0">
         <div class="max-w-7xl mx-auto bg-white rounded-lg">
             <div class="flex flex-col lg:flex-row gap-8 justify-center items-center p-4">
-                <img src="img/Formation.png" alt="Formation" class="sm:w-1/2 rounded-md">
+                <img src="img/Formation.webp" alt="Formation" class="sm:w-1/2 rounded-md">
                 <div class="flex flex-col gap-4 justify-center text-center sm:w-1/2">
                     <h2>Progressez rapidement</h2>
                     <p class="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ipsum
@@ -37,7 +37,7 @@
     <div class="max-w-7xl py-8 px-4 sm:px-6 lg:px-0">
         <div class="max-w-7xl mx-auto bg-white rounded-lg">
             <div class="flex flex-col lg:flex-row-reverse gap-8 justify-center items-center p-4">
-                <img src="img/Localisation.png" alt="Localisation" class="sm:w-1/2 rounded-md">
+                <img src="img/Localisation.webp" alt="Localisation" class="sm:w-1/2 rounded-md">
                 <div class="flex flex-col gap-4 justify-center text-center sm:w-1/2">
                     <h2>Dans un environnement adapté</h2>
                     <p class="text-lg">Des formations dispensées dans un environnement adapté pour le bien être
@@ -52,7 +52,7 @@
     <div class="max-w-7xl py-8 px-4 sm:px-6 lg:px-0">
         <div class="max-w-7xl mx-auto bg-white rounded-lg">
             <div class="flex flex-col lg:flex-row gap-8 justify-center items-center p-4">
-                <img src="img/Contact.png" alt="Contact" class="sm:w-1/2 rounded-md">
+                <img src="img/Contact.webp" alt="Contact" class="sm:w-1/2 rounded-md">
                 <div class="flex flex-col gap-4 justify-center text-center sm:w-1/2">
                     <h2>Une question ? Besoin d'aide ?</h2>
                     <p class="text-lg">Nous serions ravis de vous aider en répondant à toutes vos questions. N'hésitez
