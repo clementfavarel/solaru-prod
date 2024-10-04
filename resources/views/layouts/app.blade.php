@@ -16,7 +16,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="antialiased bg-gray-100 text-black/50 dark:bg-black dark:text-white/50">
+<body class="antialiased bg-gray-100 text-black/50">
     @include('layouts.nav')
 
     <main class="max-w-7xl mx-auto z-0 lg:mt-20">
