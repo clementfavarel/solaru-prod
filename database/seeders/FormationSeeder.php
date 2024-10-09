@@ -13,6 +13,7 @@ class FormationSeeder extends Seeder
     public function run(): void
     {
         Formation::create([
+            'img_src' => '/img/formation1.webp',
             'titre' => 'Concevoir et animer une formation avec une pédagogie active',
             'description' => 'Formation intensive de 5 jours, avec trois modalités disponibles.',
             'objectifs' => 'Préparer et définir une action de formation en pédagogie active, concevoir des supports attractifs, animer des séquences pédagogiques.',

@@ -5,6 +5,10 @@
                 <h1 class="text-3xl font-bold text-gray-800 text-center mt-4">Nos Formations</h1>
                 @foreach ($formations as $formation)
                     <div class="p-6 bg-gray-100 rounded-lg shadow mb-6">
+                        <div class="mb-6 w-full h-96 rounded-lg">
+                            <img src="{{ $formation->img_src }}" alt="Formation : {{ $formation->titre }}"
+                                class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300">
+                        </div>
                         <h2 class="text-2xl font-semibold text-gray-800 text-center">{{ $formation->titre }}</h2>
                         <p class="text-center text-gray-600 mt-2">{{ Str::limit($formation->description, 150) }}</p>
                         <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4">

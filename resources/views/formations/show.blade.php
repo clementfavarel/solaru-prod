@@ -1,8 +1,16 @@
 <x-app-layout>
     <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div class="bg-white shadow-xl rounded-lg overflow-hidden">
-            <div class="px-6 py-8 bg-purple-600">
-                <h1 class="text-3xl font-extrabold text-white text-center">{{ $formation->titre }}</h1>
+            <div class="relative">
+                <div class="w-full h-96">
+                    <img src="{{ $formation->img_src }}" alt="Formation : {{ $formation->titre }}"
+                        class="w-full h-full object-cover">
+                </div>
+                <div class="absolute inset-0 bg-purple-600 bg-opacity-75">
+                    <div class="h-full flex items-center justify-center">
+                        <h1 class="text-3xl font-extrabold text-white text-center px-6">{{ $formation->titre }}</h1>
+                    </div>
+                </div>
             </div>
             <div class="px-4 py-5 sm:p-6">
                 <div class="space-y-8">
