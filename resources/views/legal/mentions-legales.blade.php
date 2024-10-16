@@ -11,9 +11,9 @@
             <h2 class="mt-8">Éditeur du site</h2>
             <p>Le site <strong>solaruform.com</strong> est édité par :</p>
             <ul>
-                <li><strong>Raison sociale :</strong> SOLARU FORM - SARL - RCS TOULON</li>
+                <li><strong>Raison sociale :</strong> SOLARU FORM - SARL - RCS TOULON - N°DA 93 83 07965 83</li>
                 <li><strong>Adresse :</strong> 631 chemin de la Foux - 83130 La Garde</li>
-                <li><strong>SIRET :</strong> Numéro SIRET de l'entreprise</li>
+                <li><strong>SIRET :</strong> 933 446 023 00014</li>
                 <li><strong>Directeur de publication :</strong> Clément FAVAREL</li>
                 <li><strong>Contact :</strong> contact@solaruform.com / 07 69 45 27 25</li>
             </ul>

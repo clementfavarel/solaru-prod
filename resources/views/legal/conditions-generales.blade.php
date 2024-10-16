@@ -7,7 +7,7 @@
 
         <p class="text-black/50 mt-4">
             Les présentes conditions générales de vente (les « CGV »), ont pour objet de définir les conditions dans
-            lesquelles la Société Solaru Form ( SARL – RCS TOULON : à venir NDA à venir (« l’Organisme de formation»)
+            lesquelles la Société Société Solaru Form (SARL – RCS TOULON : 933 446 023 00014 - N°DA 93 83 07965 83 (« l’Organisme de formation»)
             consent au responsable de l’inscription, acheteur professionnel, et/ou participant à la formation
             (individuellement ou collectivement le « Client ») qui l'accepte, une formation issue de l’offre de
             formations de l’Organisme de formation (la « Formation »).

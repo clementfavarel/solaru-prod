@@ -50,7 +50,7 @@
                                 @endif
                             </p>
                             <a href="{{ route('formations.show', $formation->id) }}"
-                                class="px-4 py-3 rounded-lg bg-purple-500 hover:bg-purple-400 font-semibold text-white text-center">
+                                class="px-4 py-3 rounded-lg bg-[#825A7E] hover:bg-[#9E7594] font-semibold text-white text-center">
                                 Voir les détails
                             </a>
                         </div>

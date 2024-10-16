@@ -6,7 +6,7 @@
                     <img src="{{ $formation->img_src }}" alt="Formation : {{ $formation->titre }}"
                         class="w-full h-full object-cover">
                 </div>
-                <div class="absolute inset-0 bg-purple-600 bg-opacity-75">
+                <div class="absolute inset-0 bg-[#825A7E] bg-opacity-75">
                     <div class="h-full flex items-center justify-center">
                         <h1 class="text-3xl font-extrabold text-white text-center px-6">{{ $formation->titre }}</h1>
                     </div>
@@ -34,7 +34,7 @@
                         <ul class="mt-2 flex flex-col sm:flex-row gap-2">
                             @foreach ($formation->modalites as $modalite)
                                 <li class="mb-2 p-4 bg-white shadow rounded-lg flex-1">
-                                    <h3 class="text-lg font-semibold text-purple-600 mb-2">{{ $modalite->modalite }}
+                                    <h3 class="text-lg font-semibold text-[#825A7E] mb-2">{{ $modalite->modalite }}
                                     </h3>
                                     <p class="text-sm text-gray-500 mb-2">Durée : {{ $modalite->duree_heures }} heures
                                         ({{ $modalite->duree_jours }} jours)

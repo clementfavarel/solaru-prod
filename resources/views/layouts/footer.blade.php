@@ -3,9 +3,9 @@
         <div class="flex flex-wrap justify-between items-start">
             <div class="w-full md:w-1/4 mb-6 md:mb-0">
                 <img src="/img/logo.webp" alt="Solaru Prod logo" class="w-60 mb-4">
-                <img src="/img/qualiopi.webp" alt="Qualiopi logo" class="w-60 mb-4">
+                {{-- <img src="/img/qualiopi.webp" alt="Qualiopi logo" class="w-60 mb-4"> --}}
                 <p class="mb-2">Copyright &copy; {{ date('Y') }} - {{ config('app.name', 'Solaru Form') }}</p>
-                <p>Site internet créé par Clément FAVAREL</p>
+                <p>Site internet créé par plkode</p>
             </div>
 
             <div class="w-full md:w-1/4 mb-6 md:mb-0">
@@ -13,8 +13,8 @@
                 <a href="mailto:contact@solaruform.com" class="block mb-2 underline">contact@solaruform.com</a>
                 <p class="mb-4">07 69 45 27 25</p>
                 <div class="flex space-x-4">
-                    <a href="https://www.instagram.com/solaruprod"
-                        class="text-dark hover:text-black dark:hover:text-white" target="_blank">
+                    <a href="https://www.instagram.com/solaruform"
+                        class="text-dark hover:text-black" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round" class="feather feather-instagram h-6 w-6">
